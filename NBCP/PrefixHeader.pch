@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  IWantBuyNewPages
+//
+//  Created by Michael on 2018/11/8.
+//  Copyright © 2018 Michael. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//区分编译，否则会因为导入人脸识别的库而报错
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "DefinedHeader.h"
+#import "ToolsHeader.h"
+#import "OtherFileHeader.h"
+
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */

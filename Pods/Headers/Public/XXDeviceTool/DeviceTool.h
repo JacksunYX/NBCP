@@ -1,0 +1,1 @@
+../../../XXDeviceTool/XXDeviceTool/Classes/DeviceTool.h

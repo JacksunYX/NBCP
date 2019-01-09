@@ -1,0 +1,27 @@
+{
+  "name": "XXDeviceTool",
+  "version": "0.1.3",
+  "summary": "XXDeviceTool",
+  "description": "XXDeviceTool 获取UUID 和设备型号",
+  "homepage": "https://github.com/XXCommonTools/XXDeviceTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangzi": "595919268@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/XXCommonTools/XXDeviceTool.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XXDeviceTool/Classes/**/*",
+  "dependencies": {
+    "SSKeychain": [
+
+    ]
+  }
+}
