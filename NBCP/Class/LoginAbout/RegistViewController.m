@@ -1,18 +1,18 @@
 //
-//  LoginViewController.m
+//  RegistViewController.m
 //  NBCP
 //
-//  Created by Michael on 2019/1/9.
+//  Created by Michael on 2019/1/10.
 //  Copyright © 2019 Michael. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "RegistViewController.h"
 
-@interface LoginViewController ()
+@interface RegistViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation RegistViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

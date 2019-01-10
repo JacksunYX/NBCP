@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3272C4895435EBBDE4BF7321 /* libPods-NBCPUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8130B7D3DB7DFC3A2E8DF11C /* libPods-NBCPUITests.a */; };
 		4CFF286821E5EC2E00396D26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF286721E5EC2E00396D26 /* AppDelegate.m */; };
-		4CFF286B21E5EC2E00396D26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF286A21E5EC2E00396D26 /* ViewController.m */; };
 		4CFF286E21E5EC2E00396D26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF286C21E5EC2E00396D26 /* Main.storyboard */; };
 		4CFF287021E5EC3000396D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF286F21E5EC3000396D26 /* Assets.xcassets */; };
 		4CFF287321E5EC3000396D26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF287121E5EC3000396D26 /* LaunchScreen.storyboard */; };
@@ -158,6 +157,7 @@
 		4CFF2A7C21E5F1B700396D26 /* TXLimitedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2A0B21E5F1B700396D26 /* TXLimitedTextField.m */; };
 		4CFF2A7D21E5F1B700396D26 /* TXLimitedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2A0C21E5F1B700396D26 /* TXLimitedTextView.m */; };
 		4CFF2A8521E5F62200396D26 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2A8421E5F62200396D26 /* LoginViewController.m */; };
+		4CFF2A8921E6D14F00396D26 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2A8821E6D14F00396D26 /* RegistViewController.m */; };
 		731A4B8DB6E75BBF0AC0EAA4 /* libPods-NBCP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 948AC01DBBA039EC5AD1ACE0 /* libPods-NBCP.a */; };
 		D29DA3FB5816E6512F4A656B /* libPods-NBCPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B75A7BD7C4A5F18DF6341EB /* libPods-NBCPTests.a */; };
 /* End PBXBuildFile section */
@@ -186,8 +186,6 @@
 		4CFF286321E5EC2E00396D26 /* NBCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFF286621E5EC2E00396D26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CFF286721E5EC2E00396D26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CFF286921E5EC2E00396D26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4CFF286A21E5EC2E00396D26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4CFF286D21E5EC2E00396D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CFF286F21E5EC3000396D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CFF287221E5EC3000396D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -496,6 +494,8 @@
 		4CFF2A0C21E5F1B700396D26 /* TXLimitedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLimitedTextView.m; sourceTree = "<group>"; };
 		4CFF2A8321E5F62200396D26 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		4CFF2A8421E5F62200396D26 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4CFF2A8721E6D14F00396D26 /* RegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		4CFF2A8821E6D14F00396D26 /* RegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
 		54080F5B81E006B3D6138566 /* Pods-NBCPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBCPTests/Pods-NBCPTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B75A7BD7C4A5F18DF6341EB /* libPods-NBCPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBCPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8130B7D3DB7DFC3A2E8DF11C /* libPods-NBCPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBCPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -563,8 +563,6 @@
 				4CFF2A7E21E5F5D800396D26 /* Class */,
 				4CFF286621E5EC2E00396D26 /* AppDelegate.h */,
 				4CFF286721E5EC2E00396D26 /* AppDelegate.m */,
-				4CFF286921E5EC2E00396D26 /* ViewController.h */,
-				4CFF286A21E5EC2E00396D26 /* ViewController.m */,
 				4CFF290021E5EEE000396D26 /* PrefixHeader.pch */,
 				4CFF286C21E5EC2E00396D26 /* Main.storyboard */,
 				4CFF286F21E5EC3000396D26 /* Assets.xcassets */,
@@ -612,8 +610,8 @@
 				4CFF28E421E5EDE500396D26 /* YXHeader.h */,
 				4CFF28CA21E5EDE500396D26 /* YXHeader.m */,
 				4CFF28AA21E5EDE500396D26 /* NotifyList.h */,
-				4CFF28C821E5EDE500396D26 /* BaseViewController.m */,
 				4CFF28E321E5EDE500396D26 /* BaseViewController.h */,
+				4CFF28C821E5EDE500396D26 /* BaseViewController.m */,
 				4CFF28DF21E5EDE500396D26 /* TopBaseViewController.h */,
 				4CFF28C921E5EDE500396D26 /* TopBaseViewController.m */,
 				4CFF28A021E5EDE500396D26 /* UIImage */,
@@ -888,12 +886,12 @@
 		4CFF293D21E5F1B600396D26 /* Text */ = {
 			isa = PBXGroup;
 			children = (
-				4CFF293E21E5F1B600396D26 /* YYTextView.m */,
-				4CFF293F21E5F1B600396D26 /* Component */,
+				4CFF296721E5F1B600396D26 /* YYLabel.h */,
 				4CFF295221E5F1B600396D26 /* YYLabel.m */,
 				4CFF295321E5F1B600396D26 /* YYTextView.h */,
+				4CFF293E21E5F1B600396D26 /* YYTextView.m */,
+				4CFF293F21E5F1B600396D26 /* Component */,
 				4CFF295421E5F1B600396D26 /* String */,
-				4CFF296721E5F1B600396D26 /* YYLabel.h */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1175,6 +1173,7 @@
 		4CFF2A7E21E5F5D800396D26 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				4CFF2A8621E6D11300396D26 /* LoginAbout */,
 				4CFF2A7F21E5F5E600396D26 /* Controller */,
 				4CFF2A8221E5F5FD00396D26 /* View */,
 				4CFF2A8121E5F5F700396D26 /* Model */,
@@ -1185,8 +1184,6 @@
 		4CFF2A7F21E5F5E600396D26 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4CFF2A8321E5F62200396D26 /* LoginViewController.h */,
-				4CFF2A8421E5F62200396D26 /* LoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1203,6 +1200,17 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4CFF2A8621E6D11300396D26 /* LoginAbout */ = {
+			isa = PBXGroup;
+			children = (
+				4CFF2A8321E5F62200396D26 /* LoginViewController.h */,
+				4CFF2A8421E5F62200396D26 /* LoginViewController.m */,
+				4CFF2A8721E6D14F00396D26 /* RegistViewController.h */,
+				4CFF2A8821E6D14F00396D26 /* RegistViewController.m */,
+			);
+			path = LoginAbout;
 			sourceTree = "<group>";
 		};
 		74B67F733A22967ACDB74A65 /* Frameworks */ = {
@@ -1469,7 +1477,6 @@
 				4CFF2A7721E5F1B700396D26 /* UIView+WebCacheOperation.m in Sources */,
 				4CFF2A3D21E5F1B700396D26 /* UIBarButtonItem+YYAdd.m in Sources */,
 				4CFF2A8521E5F62200396D26 /* LoginViewController.m in Sources */,
-				4CFF286B21E5EC2E00396D26 /* ViewController.m in Sources */,
 				4CFF2A2F21E5F1B700396D26 /* NSAttributedString+YYText.m in Sources */,
 				4CFF2A4D21E5F1B700396D26 /* NSNotificationCenter+YYAdd.m in Sources */,
 				4CFF2A4B21E5F1B700396D26 /* NSDate+YYAdd.m in Sources */,
@@ -1574,6 +1581,7 @@
 				4CFF290E21E5F0AA00396D26 /* UIView+LYExtension.m in Sources */,
 				4CFF2A4821E5F1B700396D26 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				4CFF2A7521E5F1B700396D26 /* NSData+ImageContentType.m in Sources */,
+				4CFF2A8921E6D14F00396D26 /* RegistViewController.m in Sources */,
 				4CFF2A3C21E5F1B700396D26 /* UIView+YYAdd.m in Sources */,
 				4CFF2A5821E5F1B700396D26 /* YYKeychain.m in Sources */,
 				4CFF2A2021E5F1B700396D26 /* YYTextView.m in Sources */,

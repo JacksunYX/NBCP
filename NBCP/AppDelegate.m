@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
+    [self setMainVC];
     
     return YES;
 }
@@ -49,5 +49,16 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+//设置主界面
+-(void)setMainVC
+{
+    self.window = [[UIWindow alloc]initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.backgroundColor = WhiteColor;
+    
+    LoginViewController *lVC = [LoginViewController new];
+    RTRootNavigationController *rrnc = [[RTRootNavigationController alloc]initWithRootViewController:lVC];
+    self.window.rootViewController = rrnc;
+    [self.window makeKeyAndVisible];
+}
 
 @end
