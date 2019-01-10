@@ -102,6 +102,14 @@
     [self setTitle:title forState:UIControlStateHighlighted];
 }
 
+//设置所有状态统一的文字
+-(void)setUnifiedTitle:(NSString *)title
+{
+    [self setNormalTitle:title];
+    [self setSelectedTitle:title];
+    [self setHighLightTitle:title];
+}
+
 //设置普通状态下的富文本文字
 -(void)setNormalAttributedTitle:(NSAttributedString *)title
 {
@@ -136,6 +144,14 @@
 -(void)setHighLightTitleColor:(UIColor *)color
 {
     [self setTitleColor:color forState:UIControlStateHighlighted];
+}
+
+//设置所有状态统一的文字颜色
+-(void)setUnifiedTitleColor:(UIColor *)color
+{
+    [self setNormalTitleColor:color];
+    [self setSelectedTitleColor:color];
+    [self setHighLightTitleColor:color];
 }
 
 #pragma mark ---- 修改图片

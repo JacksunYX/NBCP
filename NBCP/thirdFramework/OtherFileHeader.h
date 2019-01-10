@@ -21,7 +21,7 @@
 #import "UINavigationController+FDFullscreenPopGesture.h"
 #import "YYKit.h"
 
-
+#import "IQKeyboardManager.h"
 
 //弹出控制器库
 #import "UIViewController+MYModal.h"

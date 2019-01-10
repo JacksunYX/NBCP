@@ -54,14 +54,14 @@
 
 #import "UIViewController+Extension.h"
 
-
+#import "UITextField+extension.h"
 
 #define kSCREEN_W UIScreen.mainScreen.bounds.size.width
 #define kSCREEN_H UIScreen.mainScreen.bounds.size.height
 
 #define Font(F) [UIFont systemFontOfSize:F]
-#define ScaleW(W)  (W*kSCREEN_W/414.0f)
-#define ScaleH(H)  (H*kSCREEN_H/736.0f)
+#define ScaleW(W)  (W*kSCREEN_W/375.0f)
+#define ScaleH(H)  (H*kSCREEN_H/668.0f)
 
 //苹方Light
 #define PFFontL(F) [UIFont fontWithName:@"PingFangSC-Light" size:F]
