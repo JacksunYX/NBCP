@@ -173,6 +173,8 @@
 		4CFF2ABC21E7244200396D26 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AAA21E7244200396D26 /* IQUIView+Hierarchy.m */; };
 		4CFF2ABD21E7244200396D26 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AAE21E7244200396D26 /* IQUIViewController+Additions.m */; };
 		4CFF2ABE21E7244200396D26 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AB021E7244200396D26 /* IQKeyboardReturnKeyHandler.m */; };
+		4CFF2AC121E824C000396D26 /* SelectCombinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AC021E824C000396D26 /* SelectCombinationViewController.m */; };
+		4CFF2AC421E8292600396D26 /* SelectCombinationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AC321E8292600396D26 /* SelectCombinationCell.m */; };
 		731A4B8DB6E75BBF0AC0EAA4 /* libPods-NBCP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 948AC01DBBA039EC5AD1ACE0 /* libPods-NBCP.a */; };
 		D29DA3FB5816E6512F4A656B /* libPods-NBCPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B75A7BD7C4A5F18DF6341EB /* libPods-NBCPTests.a */; };
 /* End PBXBuildFile section */
@@ -542,6 +544,10 @@
 		4CFF2AAE21E7244200396D26 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
 		4CFF2AAF21E7244200396D26 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
 		4CFF2AB021E7244200396D26 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		4CFF2ABF21E824C000396D26 /* SelectCombinationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectCombinationViewController.h; sourceTree = "<group>"; };
+		4CFF2AC021E824C000396D26 /* SelectCombinationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCombinationViewController.m; sourceTree = "<group>"; };
+		4CFF2AC221E8292600396D26 /* SelectCombinationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectCombinationCell.h; sourceTree = "<group>"; };
+		4CFF2AC321E8292600396D26 /* SelectCombinationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCombinationCell.m; sourceTree = "<group>"; };
 		54080F5B81E006B3D6138566 /* Pods-NBCPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBCPTests/Pods-NBCPTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B75A7BD7C4A5F18DF6341EB /* libPods-NBCPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBCPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8130B7D3DB7DFC3A2E8DF11C /* libPods-NBCPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBCPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1232,6 +1238,8 @@
 		4CFF2A7F21E5F5E600396D26 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4CFF2ABF21E824C000396D26 /* SelectCombinationViewController.h */,
+				4CFF2AC021E824C000396D26 /* SelectCombinationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1246,6 +1254,8 @@
 		4CFF2A8221E5F5FD00396D26 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4CFF2AC221E8292600396D26 /* SelectCombinationCell.h */,
+				4CFF2AC321E8292600396D26 /* SelectCombinationCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1656,6 +1666,7 @@
 				4CFF2A4421E5F1B700396D26 /* NSBundle+YYAdd.m in Sources */,
 				4CFF2AB521E7244200396D26 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				4CFF2A6B21E5F1B700396D26 /* SDWebImageManager.m in Sources */,
+				4CFF2AC421E8292600396D26 /* SelectCombinationCell.m in Sources */,
 				4CFF2A5B21E5F1B700396D26 /* YYTimer.m in Sources */,
 				4CFF2A7421E5F1B700396D26 /* SDWebImageDownloaderOperation.m in Sources */,
 				4CFF2A3F21E5F1B700396D26 /* UIImage+YYAdd.m in Sources */,
@@ -1719,6 +1730,7 @@
 				4CFF2A4121E5F1B700396D26 /* UIFont+YYAdd.m in Sources */,
 				4CFF2A5321E5F1B700396D26 /* YYAsyncLayer.m in Sources */,
 				4CFF2A4921E5F1B700396D26 /* NSTimer+YYAdd.m in Sources */,
+				4CFF2AC121E824C000396D26 /* SelectCombinationViewController.m in Sources */,
 				4CFF28F221E5EDE500396D26 /* UIView+GFCorner.m in Sources */,
 				4CFF28EB21E5EDE500396D26 /* UIScrollView+PullUpOrDown.m in Sources */,
 				4CFF28F821E5EDE500396D26 /* NSString+AttText.m in Sources */,

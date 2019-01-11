@@ -221,6 +221,10 @@
     return [super canPerformAction:action withSender:sender];
 }
 
+-(UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
 #pragma mark --请求
 //登录操作
 -(void)requsetLogin

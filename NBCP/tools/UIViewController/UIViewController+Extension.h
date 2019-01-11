@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)setTopLineColor:(UIColor *)color;
 //设置导航栏透明
 -(void)setNavigationBarTransparent;
+//设置导航栏背景色
+-(void)setNavigationBarBackgroundColor:(UIColor *)color;
 //设置导航栏标题
 -(void)setNavigationBarTitle:(UIFont *)font titleColor:(UIColor *)color;
 @end

@@ -227,6 +227,10 @@
     return [super canPerformAction:action withSender:sender];
 }
 
+-(UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
 #pragma mark --请求
 //确定操作
 -(void)requsetConfirm

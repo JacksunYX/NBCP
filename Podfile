@@ -17,15 +17,15 @@ target 'NBCP' do
     # Pods for testing
   end
 
-pod 'AFNetworking'
-    pod 'MBProgressHUD'
-    pod 'Toast'
-    pod 'MJExtension'
-    pod 'MJRefresh'
-    pod 'SDAutoLayout', '~> 2.1.3'
-    pod 'ZYKeyboardUtil'
-    pod 'ReactiveObjC'
-    pod 'XXDeviceTool',:git => 'https://github.com/XXCommonTools/XXDeviceTool.git'
-    pod 'BGFMDB'
+  pod 'AFNetworking'
+  pod 'MBProgressHUD'
+  pod 'Toast'
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  pod 'SDAutoLayout', '~> 2.1.3'
+  pod 'ZYKeyboardUtil'
+  pod 'ReactiveObjC'
+  pod 'XXDeviceTool',:git => 'https://github.com/XXCommonTools/XXDeviceTool.git'
+  pod 'BGFMDB'
 
 end

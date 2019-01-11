@@ -33,18 +33,26 @@
 -(void)setNavigationBarTransparent
 {
     self.navigationController.navigationBar.translucent = YES;
-    //背景图片s
+    //背景图片
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]forBarMetrics:UIBarMetricsDefault];
     //去掉导航栏底部的黑线
     self.navigationController.navigationBar.shadowImage = [UIImage new];
 }
 
+//设置导航栏标题
 -(void)setNavigationBarTitle:(UIFont *)font titleColor:(UIColor *)color
 {
     NSMutableDictionary *dic = [NSMutableDictionary new];
     dic[NSFontAttributeName] = font;
     dic[NSForegroundColorAttributeName] = color;
     [self.navigationController.navigationBar setTitleTextAttributes:dic];
+}
+
+//设置导航栏背景色
+-(void)setNavigationBarBackgroundColor:(UIColor *)color
+{
+    self.navigationController.navigationBar.translucent = NO;
+    self.navigationController.navigationBar.barTintColor = color;
 }
 
 @end
