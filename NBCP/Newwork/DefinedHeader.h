@@ -336,11 +336,14 @@ kWindow.userInteractionEnabled = YES;\
 
 
 #pragma mark --全局标记
-//登录用户的token值
+//标记登录用户的token值
 #define Token       @"token"
-//设备deviceToken
+//标记设备deviceToken
 #define DeviceToken @"DeviceToken"
-
+//标记自动登录
+#define AutoLogin @"AutoLogin"
+//标记手势密码
+#define GesturesPassword @"GesturesPassword"
 
 
 #import "HttpRequest.h"

@@ -10,6 +10,8 @@
 
 #import "SelectCombinationViewController.h"
 
+#import "SettingViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -59,7 +61,7 @@
     self.window = [[UIWindow alloc]initWithFrame:UIScreen.mainScreen.bounds];
     self.window.backgroundColor = WhiteColor;
     
-    SelectCombinationViewController *scVC = [SelectCombinationViewController new];
+    SettingViewController *scVC = [SettingViewController new];
     RTRootNavigationController *rrnc = [[RTRootNavigationController alloc]initWithRootViewController:scVC];
     self.window.rootViewController = rrnc;
     [self.window makeKeyAndVisible];
