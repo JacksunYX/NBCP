@@ -29,8 +29,8 @@
 #import "NSObject+LCFastSingleton.h"
 //空白视图
 #import "LYEmptyViewHeader.h"
-
-
+//长按放大镜控件
+#import "DZMMagnifierView.h"
 
 #import <SDAutoLayout.h>
 #import <ZYKeyboardUtil.h>

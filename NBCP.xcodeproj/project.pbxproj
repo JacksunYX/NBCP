@@ -176,6 +176,7 @@
 		4CFF2AC121E824C000396D26 /* SelectCombinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AC021E824C000396D26 /* SelectCombinationViewController.m */; };
 		4CFF2AC421E8292600396D26 /* SelectCombinationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AC321E8292600396D26 /* SelectCombinationCell.m */; };
 		4CFF2AC721E8855A00396D26 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AC621E8855A00396D26 /* SettingViewController.m */; };
+		4CFF2AD221EC98B600396D26 /* DZMMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF2AD121EC98B600396D26 /* DZMMagnifierView.m */; };
 		731A4B8DB6E75BBF0AC0EAA4 /* libPods-NBCP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 948AC01DBBA039EC5AD1ACE0 /* libPods-NBCP.a */; };
 		D29DA3FB5816E6512F4A656B /* libPods-NBCPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B75A7BD7C4A5F18DF6341EB /* libPods-NBCPTests.a */; };
 /* End PBXBuildFile section */
@@ -551,6 +552,8 @@
 		4CFF2AC321E8292600396D26 /* SelectCombinationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCombinationCell.m; sourceTree = "<group>"; };
 		4CFF2AC521E8855A00396D26 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		4CFF2AC621E8855A00396D26 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		4CFF2AD021EC98B600396D26 /* DZMMagnifierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMMagnifierView.h; sourceTree = "<group>"; };
+		4CFF2AD121EC98B600396D26 /* DZMMagnifierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMMagnifierView.m; sourceTree = "<group>"; };
 		54080F5B81E006B3D6138566 /* Pods-NBCPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBCPTests/Pods-NBCPTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B75A7BD7C4A5F18DF6341EB /* libPods-NBCPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBCPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8130B7D3DB7DFC3A2E8DF11C /* libPods-NBCPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBCPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -828,6 +831,7 @@
 			isa = PBXGroup;
 			children = (
 				4CFF291021E5F12400396D26 /* OtherFileHeader.h */,
+				4CFF2ACF21EC98B600396D26 /* DZMMagnifierView */,
 				4CFF2A8E21E7244100396D26 /* IQKeyboardManager */,
 				4CFF29C221E5F1B600396D26 /* RTRootNavigationController */,
 				4CFF29DC21E5F1B700396D26 /* FDFullscreenPopGesture */,
@@ -1361,6 +1365,15 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		4CFF2ACF21EC98B600396D26 /* DZMMagnifierView */ = {
+			isa = PBXGroup;
+			children = (
+				4CFF2AD021EC98B600396D26 /* DZMMagnifierView.h */,
+				4CFF2AD121EC98B600396D26 /* DZMMagnifierView.m */,
+			);
+			path = DZMMagnifierView;
+			sourceTree = "<group>";
+		};
 		74B67F733A22967ACDB74A65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1694,6 +1707,7 @@
 				4CFF2A4C21E5F1B700396D26 /* NSString+YYAdd.m in Sources */,
 				4CFF2A3B21E5F1B700396D26 /* UIScreen+YYAdd.m in Sources */,
 				4CFF28F121E5EDE500396D26 /* UIView+GFBorder.m in Sources */,
+				4CFF2AD221EC98B600396D26 /* DZMMagnifierView.m in Sources */,
 				4CFF2A6221E5F1B700396D26 /* UIViewController+MYModal.m in Sources */,
 				4CFF2A2921E5F1B700396D26 /* YYTextDebugOption.m in Sources */,
 				4CFF28EA21E5EDE500396D26 /* UIScrollView+Direction.m in Sources */,
